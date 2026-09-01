@@ -73,8 +73,7 @@ li {
 
 #about,
 #discord,
-#contact,
- {
+#contact {
   padding: 48px 0;
 }
 
@@ -170,14 +169,14 @@ footer {background-color: #aaf5ff;
   align-items:center;
 }
 
-.footer__logo {max-width: 480px
+.footer__logo {max-width: 480px;
   margin-bottom: 16px;
 }
 
-.footer__links{margin-bottom: 32px;
-.footer}
+.footer__links {margin-bottom: 32px;
+}
 
-.footer__links {padding: 0 16px
+.footer__links {padding: 0 16px;
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
@@ -186,22 +185,23 @@ footer {background-color: #aaf5ff;
   .row {flex-direction:column;
   }
 
-  .home__description{margin-bottom 24px;
-  display:flex;
+  .home__description{margin-bottom: 24px;
+  display: flex;
 flex-direction: column;
 align-items: center;
 }
 
 .home__description--button {
-  max-width 240px;
+  max-width: 240px;
 }
 
 h1 {text-align: center;
-font-size: 60px
+font-size: 60px;
 }
 
-.subheader {text-align: center
-font-size: 28px}
+.subheader {text-align: center;
+font-size: 28px;
+}
 
 ul {display: none;
 }
@@ -231,4 +231,5 @@ footer { padding: 40px 24px
 }
 
 .footer__links { margin-bottom: 24px;
+}
 }
